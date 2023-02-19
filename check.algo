@@ -1,0 +1,26 @@
+ALGORITHM check_algorithm
+VAR
+ sentencelenght,numberWords,numberWords
+ sentence : staring;
+ sum : INTEGER :=0;
+
+BEGIN
+ read(s);
+ WHILE (sentence[i]) DO
+ sentencelenght := sentencelenght + 1 
+ i := i + 1 ;
+ END_WHILE
+ WHILE (j<sentencelenght) DO
+    IF (sentence[j] = " ") THEN
+        numberWords := numberWords+1
+    END_IF
+    j:=j+1;
+ END_WHILE
+ WHILE (k<sentencelenght) DO
+    IF (sentence[k] = "a" or sentence[k] =1) THEN
+        numberWords := numberVowels+1;
+    END_IF
+    k:k+1;
+ END_WHILE
+ write(sentencelenght,numberVowels,numberWords,)
+END
